@@ -1,0 +1,56 @@
+@media (max-width:1440px) {
+    .apple-airpods , .apple-vision{
+        justify-content: center;
+        gap: 70px;
+    }
+    .img-media-none{
+        display: none;
+    }
+    .img-resposiye{
+        display: flex;
+    }
+    .product-right{
+        padding: 1rem 0;
+        justify-content: center;
+        gap: 70px;
+    }
+    .left-playstion{
+        justify-content: center;
+        gap: 70px;
+    }
+    .item-img{
+        margin-bottom: 4rem;
+    }
+}
+@media (max-width:1166px) {
+    .container{
+        max-width: 98%;
+    }
+}
+@media (max-width: 768px) {
+    .header-navbar nav, form, .header-icon {
+        display: none !important;
+    }
+
+    .header-navbar .fa-bars {
+        display: flex;
+    }
+
+    /* .section-product{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    }
+    .left-apple{
+        display: grid;
+        height: 300px;
+        grid-template-columns: 1fr;
+    }
+    .left-playstion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 3rem;
+        background-color: var(--pr-oq);
+    } */
+}
